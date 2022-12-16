@@ -1,0 +1,838 @@
+ @import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&family=Poppins&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'jost';
+ }
+
+ body {
+    background: whitesmoke
+    ;
+ }
+ a {
+     text-decoration: none;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ /* nav bar style */
+
+ .navy{
+    background-color: #a1000e;
+    margin-bottom: 2rem;
+ }
+
+ .main-nav{
+    width: 100%;
+    height: 6rem;
+    display: grid;
+    grid-template-columns: 8rem 1fr 2fr 1fr 8rem;
+ }
+
+ .logo {
+    display: grid;
+    /* background-color: brown; */
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 4rem;
+ }
+
+ .logo h2 {
+    color: white;
+    margin-bottom: 62px;
+ }
+
+ .menu-link{
+    grid-column: 3/4;
+ }
+
+ .menu-link ul{
+    height: 10rem;
+    margin-bottom: 62px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+ }
+
+ .menu-link ul li a{
+    color: white;
+ }
+
+ .menu-link ul li{
+    margin-bottom: 4rem;
+
+ }
+
+ .social {
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .social ul li{
+    margin-bottom: 4rem;
+ }
+
+ .social ul li a{
+    color: white;
+    padding-left: 11rem;
+ }
+
+ .account-logo {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+ }
+
+ .account-logo img{
+    color: white;
+    margin-bottom: 4rem;
+
+ }
+
+ /* heading style */
+
+ .heading h3{
+    color: grey;
+    
+   margin: -1rem 1rem;
+ }
+
+ .heading span{
+    color: black;
+ }
+
+ .heading h3+span{
+    margin-bottom: 1rem;
+ }
+
+ /* searchbar style */
+
+ .search{
+    margin: 2rem 1rem;
+    /* color: white-; */
+ }
+
+ .search input{
+    width: 33rem;
+    height: 3rem;
+
+ }
+
+ .search button{
+    width: 10rem;
+    height: 3rem;
+    color: rgb(245, 252, 255);
+    background: rgb(78, 190, 255);
+    
+ }
+
+
+.search .fa-search{
+    position: absolute;
+    top: 171px;
+    right: 92rem;
+ }
+
+ /* side heading 2 */
+
+ .heading2{
+    display: flex;
+    align-items: center;
+    margin: -2rem 1rem;
+ }
+
+ .heading2 button{
+    width: 127px;
+    height: 2rem;
+    margin: 20px;
+    background: rgb(57, 199, 255);
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 12%;
+ }
+
+ .heading2 h6{
+    color: red;
+ }
+
+
+ .container{
+    width: 16rem;
+    margin: 4rem 1rem;
+ }
+
+.container .card-wrapper {
+   display: grid;
+   grid-template-rows: repeat(6, 0fr);
+   grid-row-gap: 2rem;
+}
+
+
+.container .card-wrapper .card1 {
+   
+   
+   background: white;
+    padding: 3rem 0rem;
+    position: relative;
+    text-align: center;
+    /* transition: all .3s ease; */
+}
+
+.container .card-wrapper .card1 .h3 h3{
+    position: absolute;
+    background: #80808066;
+    right: 0rem;
+    top: 2px;
+    width: 255px;
+    color: black;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card-wrapper .card1 h4{
+    margin: 1rem 2rem;
+    margin-left: -1rem;
+}
+
+.container .card-wrapper .card1 button{
+    
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    width: 13rem;
+    background: aqua;
+    height: 36px;
+    border: 0;
+    display: flex;
+    align-items: center;
+
+}
+.container .card-wrapper .card1 button h4{
+    position: absolute;
+    right: 6rem;
+}
+
+.container .card-wrapper .card2 {
+    background: white;
+    padding: 3rem 0rem;
+    position: relative;
+    text-align: center;
+    height: 17rem;
+    /* transition: all .3s ease; */
+}
+
+.container .card-wrapper .card2 .h3 h3{
+    position: absolute;
+    background: #80808066;
+    right: 0rem;
+    top: 2px;
+    width: 255px;
+    color: black;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card-wrapper .card2 h4{
+    margin: 1rem 2rem;
+    margin-left: -1rem;
+}
+
+/* card 3 */
+.container .card-wrapper .card3 {
+   background: white;
+   padding: 3rem 0rem;
+   position: relative;
+   text-align: center;
+   height: 14rem;
+   /* transition: all .3s ease; */
+}
+
+.container .card-wrapper .card3 .h3 h3{
+   position: absolute;
+   background: #80808066;
+   right: 0rem;
+   top: 2px;
+   width: 255px;
+   color: black;
+   height: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container .card-wrapper .card3 h4{
+   margin: 1rem 2rem;
+   margin-left: -1rem;
+}
+
+
+.container .card-wrapper .card4 {
+   background: white;
+   padding: 3rem 0rem;
+   position: relative;
+   text-align: center;
+   height: 10rem;
+   /* transition: all .3s ease; */
+}
+
+.container .card-wrapper .card4 .h3 h3{
+   position: absolute;
+   background: #80808066;
+   right: 0rem;
+   top: 2px;
+   width: 255px;
+   color: black;
+   height: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container .card-wrapper .card4 button{
+    
+   position: absolute;
+   bottom: 1rem;
+   left: 1rem;
+   width: 13rem;
+   background: aqua;
+   height: 36px;
+   border: 0;
+   display: flex;
+   align-items: center;
+}
+
+.container .card-wrapper .card4 h4{
+   margin: 1rem 2rem;
+   margin-left: -1rem;
+}
+
+/* card 5 */
+.container .card-wrapper .card5 {
+   background: white;
+   padding: 3rem 0rem;
+   position: relative;
+   text-align: center;
+   height: 10rem;
+   /* transition: all .3s ease; */
+}
+
+.container .card-wrapper .card5 .h3 h3{
+   position: absolute;
+   background: #80808066;
+   right: 0rem;
+   top: 2px;
+   width: 255px;
+   color: black;
+   height: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.container .card-wrapper .card5 h4{
+   margin: 1rem 2rem;
+   margin-left: -1rem;
+}
+
+/* card 6 */
+.container .card-wrapper .card6 {
+   background: white;
+   padding: 3rem 0rem;
+   position: relative;
+   text-align: center;
+   height: 10rem;
+   /* transition: all .3s ease; */
+}
+
+.container .card-wrapper .card6 .h3 h3{
+   position: absolute;
+   background: #80808066;
+   right: 0rem;
+   top: 2px;
+   width: 255px;
+   color: black;
+   height: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.container .card-wrapper .card6 h4{
+   margin: 1rem 2rem;
+   margin-left: -1rem;
+}
+
+
+section{
+   height: 100vh;
+   width: 100%;
+   display: grid;
+   place-items: center;
+   
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+   
+
+}
+
+.row{
+   display: flex;
+}
+
+.column{
+   width: 100%;
+   
+   padding: 0 1em 1em 1em;
+   text-align: center;
+
+
+}
+
+.card-1{
+   border: 1px solid black;
+    width: 21%;
+    height: 61%;
+    padding: 1em 0.5em;
+    background: linear-gradient(#ffffff 50%, brown 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    position: absolute;
+    top: 50rem;
+    left: 18rem;
+}
+
+.card-1 img{
+   width: 285px;
+   height: 188px;
+}
+
+.card-1 h4{
+   margin-top: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.card-1 h3{
+   color: red;
+}
+.card-1 h3 span {
+   color: #80808066;
+}
+
+.card-1 h5{
+   margin-top: 1rem;
+}
+
+.card-1 h6{
+   color: rgba(153, 157, 158, 0.863);
+}
+
+.card-1 button{
+   width: 316px;
+   height: 35px;
+   margin: 5px;
+   padding: 5px;
+   position: absolute;
+   top: 397px;
+   left: -5px;
+   background: white;
+   border-bottom: 0;
+   border-left: 0;
+   border-right: 0;
+   border-top: 1px solid;
+
+}
+
+.card-1 button img{
+   width: 50px;
+   height: 50px;
+   padding: 10px;
+   position: absolute;
+   top: -8px;
+   left: 51px;
+}
+
+.card-1 button span{
+   font-weight: 600;
+   color: #1ca0a3;
+   font-size: large;
+   font-family: system-ui;
+
+}
+
+.card-2{
+   border: 1px solid black;
+   width: 21%;
+   height: 61%;
+   padding: 1em 0.5em;
+   background: linear-gradient(#ffffff 50%, brown 50%);
+   background-size: 100% 200%;
+   background-position: 0 2.5%;
+   border-radius: 5px;
+   position: absolute;
+   top: 307px;
+   left: 18rem;
+
+}
+
+.card-2 img{
+   width: 285px;
+   height: 188px;
+}
+
+.card-2 h4{
+   margin-top: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.card-2 h3{
+   color: red;
+}
+.card-2 h3 span {
+   color: #80808066;
+}
+
+.card-2 h5{
+   margin-top: 1rem;
+}
+
+
+.card-2 h6{
+   color: rgba(153, 157, 158, 0.863);
+}
+
+.card-2 button{
+   width: 316px;
+   height: 35px;
+   margin: 5px;
+   padding: 5px;
+   position: absolute;
+   top: 397px;
+   left: -5px;
+   background: white;
+   border-bottom: 0;
+   border-left: 0;
+   border-right: 0;
+   border-top: 1px solid;
+
+}
+
+.card-2 button img{
+   width: 50px;
+   height: 50px;
+   padding: 10px;
+   position: absolute;
+   top: -8px;
+   left: 51px;
+}
+
+.card-2 button span{
+   font-weight: 600;
+   color: #1ca0a3;
+   font-size: large;
+   font-family: system-ui;
+
+}
+
+.card-3{
+   border: 1px solid black;
+   width: 21%;
+   height: 61%;
+   padding: 1em 0.5em;
+   background: linear-gradient(#ffffff 50%, brown 50%);
+   background-size: 100% 200%;
+   background-position: 0 2.5%;
+   border-radius: 5px;
+   position: absolute;
+   top: 19rem;
+   left: 43rem;
+
+}
+
+.card-3 img{
+   width: 285px;
+   height: 188px;
+}
+
+.card-3 h4{
+   margin-top: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.card-3 h3{
+   color: red;
+}
+.card-3 h3 span {
+   color: #80808066;
+}
+
+.card-3 h5{
+   margin-top: 1rem;
+}
+
+.card-3 h6{
+   color: rgba(153, 157, 158, 0.863);
+}
+
+.card-3 button{
+   width: 316px;
+   height: 35px;
+   margin: 5px;
+   padding: 5px;
+   position: absolute;
+   top: 397px;
+   left: -5px;
+   background: white;
+   border-bottom: 0;
+   border-left: 0;
+   border-right: 0;
+   border-top: 1px solid;
+
+}
+
+.card-3 button img{
+   width: 50px;
+   height: 50px;
+   padding: 10px;
+   position: absolute;
+   top: -8px;
+   left: 51px;
+}
+
+.card-3 button span{
+   font-weight: 600;
+   color: #1ca0a3;
+   font-size: large;
+   font-family: system-ui;
+
+}
+
+.card-4{
+   border: 1px solid black;
+   width: 21%;
+   height: 61%;
+   padding: 1em 0.5em;
+   background: linear-gradient(#ffffff 50%, brown 50%);
+   background-size: 100% 200%;
+   background-position: 0 2.5%;
+   border-radius: 5px;
+   position: absolute;
+   top: 19rem;
+   left: 68rem;
+}
+
+.card-4 img{
+   width: 285px;
+   height: 188px;
+}
+
+.card-4 h4{
+   margin-top: 18px;
+    color: rgb(0, 0, 0);
+}
+.card-4 h3{
+   color: red;
+}
+.card-4 h3 span {
+   color: #80808066;
+}
+
+.card-4 h5{
+   margin-top: 1rem;
+}
+
+.card-4 h6{
+   color: rgba(153, 157, 158, 0.863);
+}
+
+.card-4 button{
+   width: 316px;
+   height: 35px;
+   margin: 5px;
+   padding: 5px;
+   position: absolute;
+   top: 397px;
+   left: -5px;
+   background: white;
+   border-bottom: 0;
+   border-left: 0;
+   border-right: 0;
+   border-top: 1px solid;
+
+}
+
+.card-4 button img{
+   width: 50px;
+   height: 50px;
+   padding: 10px;
+   position: absolute;
+   top: -8px;
+   left: 51px;
+}
+
+.card-4 button span{
+   font-weight: 600;
+   color: #1ca0a3;
+   font-size: large;
+   font-family: system-ui;
+
+}
+
+.card-5{
+   border: 1px solid black;
+   width: 21%;
+   height: 61%;
+   padding: 1em 0.5em;
+   background: linear-gradient(#ffffff 50%, brown 50%);
+   background-size: 100% 200%;
+   background-position: 0 2.5%;
+   border-radius: 5px;
+   position: absolute;
+   top: 50rem;
+   left: 68rem;
+}
+
+.card-5 img{
+   width: 285px;
+   height: 188px;
+}
+
+.card-5 h4{
+   margin-top: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.card-5 h3{
+   color: red;
+}
+.card-5 h3 span {
+   color: #80808066;
+}
+
+.card-5 h5{
+   margin-top: 1rem;
+}
+
+.card-5 h6{
+   color: rgba(153, 157, 158, 0.863);
+}
+
+.card-5 button{
+   width: 316px;
+   height: 35px;
+   margin: 5px;
+   padding: 5px;
+   position: absolute;
+   top: 397px;
+   left: -5px;
+   background: white;
+   border-bottom: 0;
+   border-left: 0;
+   border-right: 0;
+   border-top: 1px solid;
+
+}
+
+.card-5 button img{
+   width: 50px;
+   height: 50px;
+   padding: 10px;
+   position: absolute;
+   top: -8px;
+   left: 51px;
+}
+
+.card-5 button span{
+   font-weight: 600;
+   color: #1ca0a3;
+   font-size: large;
+   font-family: system-ui;
+
+}
+
+.card-6{
+   border: 1px solid black;
+    width: 21%;
+    height: 61%;
+    padding: 1em 0.5em;
+    background: linear-gradient(#ffffff 50%, brown 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    position: absolute;
+    top: 50rem;
+    left: 43rem;
+
+}
+
+.card-6 img{
+   width: 285px;
+   height: 188px;
+}
+
+.card-6 h4{
+   margin-top: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.card-6 h3{
+   color: red;
+}
+.card-6 h3 span {
+   color: #80808066;
+}
+
+.card-6 h5{
+   margin-top: 1rem;
+}
+
+.card-6 h6{
+   color: rgba(153, 157, 158, 0.863);
+}
+
+.card-6 button{
+   width: 316px;
+   height: 35px;
+   margin: 5px;
+   padding: 5px;
+   position: absolute;
+   top: 397px;
+   left: -5px;
+   background: white;
+   border-bottom: 0;
+   border-left: 0;
+   border-right: 0;
+   border-top: 1px solid;
+
+}
+
+.card-6 button img{
+   width: 50px;
+   height: 50px;
+   padding: 10px;
+   position: absolute;
+   top: -8px;
+   left: 51px;
+}
+
+.card-6 button span{
+   font-weight: 600;
+   color: #1ca0a3;
+   font-size: large;
+   font-family: system-ui;
+
+}
